@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="font/Itim-Regular.ttf" rel="stylesheet">
+	<title>My Google</title>
+</head>
+<body>
+	<div>
+		<button id="advenced-search" class="button-main-link" onclick="window.location.href='advanced_search.html';">
+			Advenced<br>searche
+		</button>
+		<button id="image-search" class="button-main-link" onclick="window.location.href='image_search.html';">
+	     	Image<br>searche
+	    </button>
+	</div>
+    <div class="centered">
+    	<h1 class="main-header">My Google</h1>
+		<form action='http://google.com/search'>
+			<input id="search-input" type="text" name="q">
+			<div class="two-button">
+				<div id="two-but">
+					<input class="button-search" id="btn-search" type="submit" value="Google Search">
+					<input class="button-search" id="btn-lucky" type="button" onclick="window.location.href='https://www.google.com/doodles';" value="I'm lucky">
+				</div>
+			</div>
+		</form>
+    </div>
+</body>
+</html>

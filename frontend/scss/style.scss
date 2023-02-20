@@ -1,0 +1,99 @@
+$background-main: #333;
+$backgorund-button-hover: darkgrey;
+$backgorund-button: grey;
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+	// background-color: $background-main;
+	background-image: url(../img/background.jpeg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	// font-family: 'Itim-Regular', Times-New-Roman;
+}
+
+.main-header {
+	color: white;
+	font-size: 96px;
+	text-align: center;
+	margin-bottom: 42px;
+	margin-top: 128px;
+}
+
+%button{
+	width: 100px;
+	border: 1px solid black;
+	border-radius: 12px;
+	background-color: #aaa;
+	// background-color: rgba(#aaa);
+	margin: 12px;
+	padding: 0px;
+	font-size: 16px;
+	border: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.button-main-link{
+	@extend %button;
+	height: 64px;
+}
+
+.button-search{
+	@extend %button;
+	height: 32px;
+	margin-top: 24px;
+	width: 128px;
+}
+
+.button-main-link:hover{
+	background-color: $backgorund-button-hover;
+}
+
+#image-search{
+	float: right;
+}
+
+#search-input {
+	height: 48px;
+	width: 60%;
+	max-width: 820px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	background-color: #aaa;
+	border: 1px solid black;
+	border-radius: 12px;
+	font-size: 36px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#search-input:focus {
+	outline: none;
+}
+
+div.centered{ 
+	
+}
+
+#btn-search{
+	
+}
+
+#btn-lucky{
+	
+}
+
+#two-but {
+	margin-right: auto;
+	margin-left: auto;
+	width: auto;
+	max-width: 308px;
+}
