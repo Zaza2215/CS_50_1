@@ -11,6 +11,8 @@ body {
 html {
   // background-color: $background-main;
   background-image: url(../img/background.jpeg);
+  width: 2250px;
+  height: 1500px;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -108,9 +110,9 @@ div.centered {
 }
 
 #one-but {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 152px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 152px;
 }
 
 #hidden-tbm {
